@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Drake Andersen Digital Portfolio</title>
+        <title>Drake Andersen - Digital Portfolio</title>
         <meta name="description" content="A digital portfolio.">
         <link rel="stylesheet" href="main.css">
     </head>
@@ -13,14 +13,41 @@
         <h1>Drake Andersen</h1>
         <h2>Digital Portfolio</h2>
         
-        <p>
-            Welcome to my digital portfolio.
-        </p>
+        <p>Welcome! This is a portfolio of my scholarly and creative digital research in music. The projects highlighted here fall into two categories: (1) <a href="#compmusicology">computational musicology</a>, and (2) <a href="#virtualscores">virtual score platforms</a>.</p>
         
-        <img src="testimage.png" alt="Test Image" style="width:300px;height:300px;">
+        <p>My research focuses on how musical decisions are negotiated during performance amongst factors like notation, unnotated norms, and musicians' aesthetic priorities. Even though many of the specific case studies are taken from experimental music, my findings illustrate musical possibilities, limits, and contingencies that are germane to diverse performance paradigms. Understanding how musical decisions are reached informs not only historical studies, but also shapes the design of my virtual score platforms in facilitating new, creative models of collaboration between musicians.</p>
         
-        <p>Check out my <a href ="/four2chart.html">interactive graph.</a></p>
-        <p>Or my <a href ="/graphtheory.html">network.</a></p>
-        <p>Or an alternate version <a href ="/network.html">here.</a></p>
+        <p>Through creative interventions in research methodologies, data presentation, pedagogy, and performance, digital scholars continue to reveal how much technology has to offer music studies, and vice versa. For more on my creative work with digital tools, my <a href="http://drakeandersen.com/electronic-music-portfolio">electronic music portfolio</a> includes musical compositions with live electronics, Max abstractions, JSFX plug-ins (which I use to teach Cockos Reaper), and more. You can also visit my <a href="https://github.com/dandersen19?tab=repositories">GitHub page.</a></p>
+        <a id="compmusicology"></a><h2>Computational Musicology</h2>
+        
+        <p><strong>Approaches to Analysis and Performance in John Cage’s <em>Four<sup>2</sup></em></strong></p>
+        <img src="cagedensityprofile.png" alt="Density Profiles" style="width:600px;height:398px;">
+        <p style="text-align: center;"><em>Prevalence of Number of Parts Heard Simultaneously in Different Realizations of</em> Four<sup>2</sup></p>
+        <p>The core of this research project is a comparison between real-world performances of John Cage's 1990 choral composition <em>Four<sup>2</sup></em> and a corpus of computer-generated random simulations of the piece. One of the most significant differences between the real-world and virtual realizations is the cumulative amount of time a particular number of voices is heard over the seven-minute duration of the piece, as illustrated by the chart above. In my conclusion, based on Cage's writing and interviews with conductors, I point to specific performance practices that may account for these differences.</p>
+        
+        <p>Tools used include Max (for generating simulations), R (for statistical analysis), and chart.js (for the interactive line graph in the published article). The article is accompanied by software built in Max that allows users to create and hear their own versions of <em>Four<sup>2</sup></em>. Download the latest version as a Max patch <a href="http://drakeandersen.com/wp-content/uploads/2020/06/CAGE-FOUR2.zip">here.</a></p>
+        <p><em>Resulting Publication:</em><br /><a href="https://mtosmt.org/issues/mto.17.23.4/mto.17.23.4.andersen.php">Andersen, Drake. "'What can they have to do with one another?': Approaches to Analysis and Performance in John Cage’s <em>Four<sup>2</sup></em>." <em>Music Theory Online</em> 23/4 (December 2017).</a></p>
+        <p>&nbsp;</p>
+        
+        <p><strong>Graph Theory and the Music of Earle Brown</strong></p>
+        <img src="browngraphtheory.jpg" alt="Earle Brown's Novara" style="width:600px;height:337px;">
+        <p style="text-align: center;"><em>The Events of Earle Brown's </em>Novara<em> as a Graph with Cliques Highlighted</em></p>
+        <p>I propose an approach to the analysis of Earle Brown's open form compositions informed by mathematical graph theory. The musical events of Brown's works are represented by nodes in a graph, and the edges reflect the possibility of “smooth transitions and long lines of connected material” as determined by instrumentation, following Brown's preferred performance practice. In addition to mapping performance, this approach allows for the identification of structural groupings through complete induced subgraphs, or "cliques," amongst events.</p>
+        <p>Tools used include R (for statistical analysis), igraph (in R and Python for visualizing graphs), and music21 (for pitch analysis of cliques).</p>
+        <p><em>A talk introducing the approach entitled "A Graph Theoretical Approach to 'Interactional Complexity' in the Music of Earle Brown" was presented virtually at the annual meeting of the Music Theory Society of New York State (and will be available online in July 2020 <a href="https://mtsnys.org/conference-information/">here.</a>) An article-length manuscript is forthcoming. <a href="andersen_graph_theory.zip">A draft of the presentation and visuals can be downloaded here.</a></em>
+        
+        <p>&nbsp;</p>
+        <p><strong>Sum Class</strong></p>
+        <img src="sumclass3d.gif" alt="Nested Sum Class Tetrahedrons" style="width:600px;height:571px;">
+        <p style="text-align: center;"><em>Nested Tetrahedrons Showing Tetrachord Progressions with Pure Contrary Voice Leading</em></p>
+        <p>The focus of this project, in which I participated as a research assistant for Joseph Straus, was to explore progressions of chords that share a "sum class" (i.e. sets of equal cardinality where the sum (mod12) of the constituent pitch classes is equal). My role was to use computational methods to visualize a pure contrary voice leading space for all tetrachords, primarily using R. I used multidimensional scaling (MDS) in the early stages to explore different overall shapes.</p>
+        <p><em>Resulting Publication:</em><br /><a href="https://read.dukeupress.edu/journal-of-music-theory/article-pdf/62/2/279/552815/0620279.pdf">Straus, Joseph N. "Sum Class." <em>Journal of Music Theory</em> 62/2 (October 2018): 279-338.</a></p>
+
+        <a id="virtualscores"></a><h2>Virtual Scores</h2>
+        <p><strong>Indra</strong></p>
+        <p>content</p>
+        <p><strong>Circles</strong></p>
+        <p>content</p>
+        
     </body>
 </html>
